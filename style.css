@@ -1,0 +1,589 @@
+/*   
+Theme Name: RUR Wordpress Site
+Theme URI: http://reallyrusefulrecyclers.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://reallyrusefulrecyclers.com
+Version: 1
+*/ 
+
+.herobg {
+    height: 600px;
+    background: url("images/Header.png") no-repeat center center;
+    background-size: cover;
+}
+
+.smallheader {
+    height: 298px;
+    background: url("images/products/small_header.png") no-repeat center center;
+    background-size: cover;
+    
+}
+
+.herobg h1 {
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    color: white;
+    width: 341px;
+    font-size: 6.125em;
+    letter-spacing: -5px;
+    font-weight: 600;
+    line-height: 95%;
+    margin-top: 170px;
+    text-align: right;
+}
+
+.tagline {
+    letter-spacing: 0px;
+    line-height: 100%;
+    margin-top: 20px;
+    width: 341px;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #9ab156;
+}
+
+a.btn {
+    color: white;
+}
+
+
+
+.navbar {
+
+    font-size: 0.875em;
+    margin-bottom: 0px;
+
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar a {
+    color: black;
+
+}
+
+a:hover {
+    color: white;
+}
+
+.navbar-nav li a:hover {
+
+    background-color: #9ab156;
+}
+
+.shop {
+
+    background-color: white;
+    text-align: center;
+
+
+}
+
+.shop btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.shop h2 {
+
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    font-size: 2.125em;
+    letter-spacing: -2px;
+    font-weight: 600;
+    line-height: 95%;
+    margin-top: 50px;
+
+}
+
+.products {
+    margin-top: 20px;
+}
+
+
+.products img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.products p {
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 100%;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+.description {
+    font-size: 12px;
+    
+  
+}
+
+.price {
+
+    text-align: justify;
+    width: [width of img];
+    line-height: 100%;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a.allproducts {
+    color:darkgray;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+}
+
+a.allproducts:hover {
+    font-size:150%;
+    color:darkgray;
+} 
+
+.moreproducts {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.aboutus {
+    background: url("images/about%20us.png") no-repeat center center;
+    background-size: cover;
+
+
+}
+
+
+.aboutus h3 {
+    margin-top: 40px;
+    width: 390px;
+    float: left;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.aboutus p {
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+.aboutus img {
+
+    display: block;
+    float: right;
+    margin: 30px;
+}
+
+.about {
+    float:left;
+    width: 80%;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutusbtn {
+    
+    float: left;
+    
+}
+
+.abtustext {
+    margin-top: 30px;
+    
+}
+
+
+.contactus {
+    background-color: deepskyblue;
+    height: 320px;
+
+}
+
+
+.container-fluid aboutus {
+    position: relative;
+}
+
+
+
+
+
+.form-style-5 {
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style-5 fieldset {
+    border: none;
+}
+
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255, 255, 255, .1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus {
+    background: #d2d9dd;
+}
+
+.form-style-5 select {
+    -webkit-appearance: menulist-button;
+    height: 35px;
+}
+
+.form-style-5 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"] {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #9ab156;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #9ab156;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover {
+    background: #9ab156;
+}
+
+
+.footer {
+
+    background-color: black;
+
+}
+
+
+
+.footer h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 20px;
+
+}
+
+
+.footer ul {
+
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.footer li {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 10px;
+    font-size: 10px;
+
+}
+
+.middlefoot {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+.rightfoot h4 {
+    text-align: right;
+
+}
+
+.rightfoot img {
+
+    margin: 10px;
+    float: right;
+}
+
+.footer a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .leftfoot {
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+
+    }
+
+
+    .middlefoot {
+
+        display: none;
+    }
+
+    .rightfoot {
+
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: right;
+    }
+    
+    .aboutus img {
+      float: none;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    
+
+}
+
+
+.moreproductsbtn btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    color: white;
+    
+}
+
+
+@media only screen and (max-width: 611px) {
+
+    .herobg h1 {
+        font-family: 'Roboto', sans-serif;
+        text-align: right;
+        color: white;
+        font-size: 3.125em;
+        letter-spacing: 0px;
+        font-weight: 600;
+        line-height: 95%;
+        margin-top: 50px;
+
+    }
+
+    .herobg {
+        height: 500px;
+    }
+
+}
+
+
+
+
+
+
+/*404 Page styling starts from here*/
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#404 {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 200px;
+  margin: 0px auto 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 236px;
+  font-weight: 200;
+  margin: 0px;
+  color: #211b19;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #211b19;
+  background: #fff;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 23px;
+  background: #ff6300;
+  font-size: 18px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #ff6300;
+  background: #211b19;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 h1 {
+    font-size: 148px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    height: 148px;
+    margin: 0px auto 10px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 86px;
+  }
+  .notfound .notfound-404 h2 {
+    font-size: 16px;
+  }
+  .notfound a {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+

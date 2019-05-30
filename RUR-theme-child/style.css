@@ -1,0 +1,42 @@
+/*
+ Theme Name:   RUR-theme Child
+ Theme URI:    http://localhost/mysite/wp-admin/themes.php?theme=RUR-theme
+ Description:  RUR-Theme Child Theme
+ Template:     RUR-theme
+ Version:      1.0.0
+ Text Domain:  rur-themechild
+*/
+
+
+.posttitle {
+    font-family: 'Roboto medium', sans-serif;
+    font-size: 48px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+   
+}
+
+.postcontent {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    max-width: 70%;
+    padding-bottom: 40px;
+            
+}
+
+.aboutuspg {
+    min-height: 100%;
+
+}
+
+.full-height {
+    height: 100%;
+    background: white;
+}
+
+.container-fluid abtustemplate {
+    position: relative;
+    height: 100%;
+}
